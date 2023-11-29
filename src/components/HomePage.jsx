@@ -1,9 +1,12 @@
 import React from 'react'
+import HomeHero from './HomeHero'
+import Logo from './Logo'
 
 function HomePage() {
   return (
     <div>
-        <p className='text-2xl'>Adebola</p>
+      <HomeHero />
+      <Logo />
     </div>
   )
 }

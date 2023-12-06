@@ -16,18 +16,38 @@ function WhyPage() {
             <div className='flex gap-10'>
                 <div className='flex-col pt-10'>
                     <div className='pb-10'>
-                        <div className='py-16 px-14 rounded-lg bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133]'></div>
+                        <div className='py-5 pr-16 pl-5 text-left rounded-lg bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] block'>
+                            <div className=''>
+                                <IoRibbon className='text-blue-800 text-2xl mb-10' />
+                                <p className='text-blue-800 font-bold'>Best In<br /> Market</p>
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <div className='py-16 px-14 rounded-lg bg-gradient-to-b from-[#FFD9D033] to-[#F24C2733]'></div>
+                        <div className='py-5 pr-16 pl-5 text-left rounded-lg bg-gradient-to-b from-[#FFD9D033] to-[#F24C2733] block'>
+                            <div className=''>
+                                <FaThumbsUp className='text-[#F24C27] text-2xl mb-10' />
+                                <p className='text-[#F24C27] font-bold'>Easy<br /> Analysis</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className='flex-col'>
                     <div className='pb-10'>
-                        <div className='py-16 px-14 rounded-lg bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133]'></div>
+                        <div className='py-5 pr-16 pl-5 text-left rounded-lg bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] block'>
+                            <div className=''>
+                                <BsShieldFillCheck className='text-blue-800 text-2xl mb-10' />
+                                <p className='text-blue-800 font-bold'>Highly<br /> Secure</p>
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <div className='py-16 px-14 rounded-lg bg-gradient-to-b from-[#FFD9D033] to-[#F24C2733]'></div>
+                        <div className='py-5 pr-16 pl-5 text-left rounded-lg bg-gradient-to-b from-[#FFD9D033] to-[#F24C2733] block'>
+                            <div className=''>
+                                <TfiHeadphoneAlt className='text-[#F24C27] font-bold text-2xl mb-10' />
+                                <p className='text-[#F24C27] font-bold'>Priority<br /> Support</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

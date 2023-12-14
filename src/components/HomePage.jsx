@@ -2,6 +2,8 @@ import React from 'react'
 import HomeHero from './HomeHero'
 import Logo from './Logo'
 import WhyPage from './WhyPage'
+import ImageSection from './ImageSection'
+import Features from './Features'
 
 function HomePage() {
   return (
@@ -9,6 +11,8 @@ function HomePage() {
       <HomeHero />
       <Logo />
       <WhyPage />
+      <ImageSection />
+      <Features />
     </div>
   )
 }

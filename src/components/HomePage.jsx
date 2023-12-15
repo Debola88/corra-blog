@@ -4,6 +4,7 @@ import Logo from './Logo'
 import WhyPage from './WhyPage'
 import ImageSection from './ImageSection'
 import Features from './Features'
+import CustomerTestimonials from './CustomerTestimonials'
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       <WhyPage />
       <ImageSection />
       <Features />
+      <CustomerTestimonials />
     </div>
   )
 }

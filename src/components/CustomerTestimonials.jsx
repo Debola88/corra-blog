@@ -7,7 +7,7 @@ import { BsStarFill } from 'react-icons/bs'
 function CustomerTestimonials() {
     return (
         <div className='py-10 md:px-28 px-5'>
-            <h1 className='text-4xl font-bold text-black text-left max-sm:text-center'>Customer Testimonials</h1>
+            <h1 className='text-3xl font-bold text-black text-left'>Customer Testimonials</h1>
             <div className='py-10 flex max-md:flex-col gap-10 mx-auto justify-center items-center'>
                 <div className='block w-[350px] h-[200px] bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] rounded-xl p-5'>
                     <div className='flex items-center gap-5'>

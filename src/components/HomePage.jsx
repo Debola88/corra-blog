@@ -5,6 +5,7 @@ import WhyPage from './WhyPage'
 import ImageSection from './ImageSection'
 import Features from './Features'
 import CustomerTestimonials from './CustomerTestimonials'
+import Faq from './Faq'
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
       <ImageSection />
       <Features />
       <CustomerTestimonials />
+      <Faq />
     </div>
   )
 }

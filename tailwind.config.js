@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-image': "url('/src/assets/Imge.jpg')",
+      },
+      fontFamily: {
+        'Nav-color' : ['Rubik Lines']
       }
     },
   },

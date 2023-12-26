@@ -17,15 +17,23 @@ const NavBar = () => {
   }
 
   const content = <>
-    <div className='md:hidden backdrop-blur-lg block absolute top-16 w-full left-0'>
-      <ul className="text-sm backdrop-blur-lg font-semibold text-left px-[3.5rem] ease-in-out duration-500">
-        <li className='border-b-2 my-3 py-3 hover:bg-[#ffffff14] hover:rounded item-center text-lg'><nav><NavLink to="/" className='flex gap-2' onClick={handleClick}><span className='text-sm'>HOME</span></NavLink></nav></li>
-        <li className='border-b-2 my-3 py-3 hover:bg-[#ffffff14] hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRODUCT</span></NavLink></nav></li>
-        <li className='border-b-2 my-3 py-3 hover:bg-[#ffffff14] hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRICING</span></NavLink></nav></li>
-        <li className='border-b-2 my-3 py-3 hover:bg-[#ffffff14] hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> ABOUT US</span></NavLink></nav></li>
-        <li className='border-b-2 my-3 py-3 hover:bg-[#ffffff14] hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> CONTACT</span></NavLink></nav></li>
-        <li className='my-3 py-3 hover:bg-[#ffffff14] hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> BLOG</span></NavLink></nav></li>
-      </ul>
+    <div className='md:hidden block absolute top-16 w-full z-50 bg-white left-0 ease-in-out  duration-500 shadow-lg'>
+      <div className='flex max-md:flex-col gap-10 justify-center px-16 pb-16 items-left font-semibold text-gray-500 text-left h-screen text-lg'>
+        <div><nav><NavLink to="/" className='flex gap-2' onClick={handleClick}><span className='text-sm'>HOME</span></NavLink></nav></div>
+        <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRODUCT</span></NavLink></nav></div>
+        <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRICING</span></NavLink></nav></div>
+        <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> ABOUT US</span></NavLink></nav></div>
+        <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> CONTACT</span></NavLink></nav></div>
+        <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> BLOG</span></NavLink></nav></div>
+      </div>
+      {/* <ul className="text-sm font-semibold text-center h-screen px-[1.5rem]">
+        <li className='my-3 py-3 hover:bg-slate-200 hover:rounded item-center text-lg'><nav><NavLink to="/" className='flex gap-2' onClick={handleClick}><span className='text-sm'>HOME</span></NavLink></nav></li>
+        <li className='my-3 py-3 hover:bg-slate-200 hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRODUCT</span></NavLink></nav></li>
+        <li className='my-3 py-3 hover:bg-slate-200 hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRICING</span></NavLink></nav></li>
+        <li className='my-3 py-3 hover:bg-slate-200 hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> ABOUT US</span></NavLink></nav></li>
+        <li className='my-3 py-3 hover:bg-slate-200 hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> CONTACT</span></NavLink></nav></li>
+        <li className='my-3 py-3 hover:bg-slate-200 hover:rounded item-center text-lg'><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> BLOG</span></NavLink></nav></li>
+      </ul> */}
     </div>
   </>
 
@@ -34,7 +42,7 @@ const NavBar = () => {
     <nav className="fixed top-0 bg-[#ffffff14] left-0 w-full md:shadow-lg z-50 backdrop-blur-lg">
       <div className="h-[10hv] flex justify-between lg:py-5 px-5 sm:px-16 py-4 ">
         <div className="flex items-center flex-1">
-          <span className='text-3xl font-bold text-black cursor-pointer' onClick={handleNavigate}>CorraBlog</span>
+          <span className='text-3xl font-bold text-blue-800 font-Nav-color uppercase cursor-pointer' onClick={handleNavigate}>CorraBlog</span>
         </div>
         <div className='text-lg flex gap-5 ml-auto justify-end items-center md:hidden'>
           <button className='block md:hidden transition-transform duration-500 text-2xl' onClick={handleClick}>

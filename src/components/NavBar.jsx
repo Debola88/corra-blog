@@ -40,7 +40,7 @@ const NavBar = () => {
 
   return (
     <nav className="fixed top-0 bg-[#ffffff14] left-0 w-full md:shadow-lg z-50 backdrop-blur-lg">
-      <div className="h-[10hv] flex justify-between lg:py-5 md:px-28 px-5 py-4 ">
+      <div className="h-[10hv] flex justify-between lg:py-5 md:px-16 px-5 py-4 ">
         <div className="flex items-center flex-1">
           <span className='text-3xl font-bold text-blue-800 font-Nav-color uppercase cursor-pointer' onClick={handleNavigate}>CorraBlog</span>
         </div>
@@ -56,7 +56,7 @@ const NavBar = () => {
               <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="/">HOME</NavLink></nav></li>
               <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="/Product">PRODUCT</NavLink></nav></li>
               <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">PRICING</NavLink></nav></li>
-              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">ABOUT US</NavLink></nav></li>
+              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">ABOUT</NavLink></nav></li>
               <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">CONTACT</NavLink></nav></li>
               <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">BLOG</NavLink></nav></li>
             </ul>

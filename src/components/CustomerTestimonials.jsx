@@ -9,7 +9,7 @@ function CustomerTestimonials() {
         <div className='py-10 md:px-28 px-5'>
             <h1 className='text-3xl font-bold text-black text-left'>Customer Testimonials</h1>
             <div className='py-10 flex max-md:flex-col gap-10 mx-auto justify-center items-center'>
-                <div className='block w-[350px] h-[200px] bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] rounded-xl p-5'>
+                <div className='block max-w-[350px] max-h-[200px] bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] rounded-xl p-5'>
                     <div className='flex items-center gap-5'>
                         <div className=''>
                             <img src={img1} alt='' className='object-contain w-auto rounded-full max-h-10' />
@@ -27,7 +27,7 @@ function CustomerTestimonials() {
                     </div>
                     <p className='mt-4 text-left text-sm font-semibold'>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ornare gravida tempor. Nunc tristique libero eget nulla.</p>
                 </div>
-                <div className='block w-[350px] h-[200px] bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] rounded-xl p-5'>
+                <div className='block max-w-[350px] max-h-[200px] bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] rounded-xl p-5'>
                     <div className='flex items-center gap-5'>
                         <div className=''>
                             <img src={img3} alt='' className='object-contain w-auto rounded-full max-h-10' />
@@ -45,7 +45,7 @@ function CustomerTestimonials() {
                     </div>
                     <p className='mt-4 text-left text-sm font-semibold'>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ornare gravida tempor. Nunc tristique libero eget nulla.</p>
                 </div>
-                <div className='block w-[350px] h-[200px] bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] rounded-xl p-5'>
+                <div className='block max-w-[350px] max-h-[200px] bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] rounded-xl p-5'>
                     <div className='flex items-center gap-5'>
                         <div className=''>
                             <img src={img2} alt='' className='object-contain w-auto rounded-full max-h-10' />

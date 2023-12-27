@@ -23,7 +23,7 @@ function Footer() {
     <div>
       <div className='bg-gray-200 text-gray-500 mt-20 py-10 text-sm px-5'>
         <div className='max-w-4xl pb-10 mx-auto'>
-          <div className='flex gap-2'>
+          <div className='flex gap-2 mx-auto'>
             <div className='relative my-auto p-2 text-left bg-[#F24C27] block -top-48 max-md:-top-[15.5rem] rounded-tl'>
             </div>
             <div className='relative w-full my-auto text-left rounded-bl-lg rounded-tr-lg  bg-[#232ED1] block -top-28'>

@@ -13,7 +13,7 @@ function ProductHero() {
                 </div>
                 <div className='flex items-center gap-4 mx-auto'>
                     <div className='pt-56 flex-col'>
-                        <div className='ml-auto my-auto w-6 p-3 left-0 max-w-max bg-[#F24C27] block rounded-br-lg'>
+                        <div className='ml-auto my-auto w-6 p-3 left-0 max-w-max bg-[#232ED1] block rounded-br-lg'>
                         </div>
                         <div className='w-full h-auto pt-2'>
                             <img src={hero1} alt='' className='max-w-full w-auto h-32 object-cover md:py-0 py-4 md:mx-0 mx-auto rounded-tl-[3rem]' />

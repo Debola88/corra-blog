@@ -47,12 +47,12 @@ function Product() {
                 <div className='md:px-28 px-5 mx-auto h-auto'>
                     <img src={Man} alt='' className='h-[60hv] object-contain rounded-tl-3xl' />
                     <div className='flex gap-4'>
-                        <div className='relative ml-auto -top-8 my-auto w-6 p-3 max-md:-top-11 max-w-max bg-[#232ED1] block rounded-bl-lg'>
+                        <div className='relative ml-auto -top-8 my-auto w-6 p-3 max-md:-top-9 max-w-max bg-[#232ED1] block rounded-bl-lg'>
                         </div>
                         <div className='relative my-auto text-left rounded-tl-[3rem] w-[35%] max-lg:w-3/4 max-md:w-full  bg-[#F24C27] -top-28'>
                             <div className=' gap-y-10 justify-between items-center p-10  max-md:p-8'>
                                 <h2 className='text-2xl max-md:text-xl font-bold text-white'>You + Corrablog = <br />Happy Customers</h2>
-                                <p className='text-sm text-white'>Lobilia curae ut nec turpis tristique, egestas lacus at, cursus arcu</p>
+                                <p className='text-sm text-white mt-4'>Lobilia curae ut nec turpis tristique, egestas lacus at, cursus arcu</p>
                             </div>
                         </div>
                     </div>

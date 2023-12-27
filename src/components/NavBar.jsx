@@ -20,7 +20,7 @@ const NavBar = () => {
     <div className='md:hidden block absolute top-16 w-full z-50 bg-white left-0 ease-in-out  duration-500 shadow-lg'>
       <div className='flex max-md:flex-col gap-10 justify-center px-16 pb-16 items-left font-semibold text-gray-500 text-left h-screen text-lg'>
         <div><nav><NavLink to="/" className='flex gap-2' onClick={handleClick}><span className='text-sm'>HOME</span></NavLink></nav></div>
-        <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRODUCT</span></NavLink></nav></div>
+        <div><nav><NavLink to="/Product" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRODUCT</span></NavLink></nav></div>
         <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRICING</span></NavLink></nav></div>
         <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> ABOUT US</span></NavLink></nav></div>
         <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> CONTACT</span></NavLink></nav></div>
@@ -40,7 +40,7 @@ const NavBar = () => {
 
   return (
     <nav className="fixed top-0 bg-[#ffffff14] left-0 w-full md:shadow-lg z-50 backdrop-blur-lg">
-      <div className="h-[10hv] flex justify-between lg:py-5 px-5 sm:px-16 py-4 ">
+      <div className="h-[10hv] flex justify-between lg:py-5 md:px-28 px-5 py-4 ">
         <div className="flex items-center flex-1">
           <span className='text-3xl font-bold text-blue-800 font-Nav-color uppercase cursor-pointer' onClick={handleNavigate}>CorraBlog</span>
         </div>
@@ -54,7 +54,7 @@ const NavBar = () => {
           <div className=''>
             <ul className='flex gap-8 mr-0 text-sm text-black'>
               <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="/">HOME</NavLink></nav></li>
-              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">PROJECT</NavLink></nav></li>
+              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="/Product">PRODUCT</NavLink></nav></li>
               <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">PRICING</NavLink></nav></li>
               <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">ABOUT US</NavLink></nav></li>
               <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">CONTACT</NavLink></nav></li>

@@ -3,11 +3,13 @@ import './index.css';
 import Layout from './components/Layout';
 import HomePage from './components/HomePage';
 import Product from './components/Product';
+import Pricing from './components/Pricing';
 
 const routes = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout />}>
     <Route index element={<HomePage />} />
     <Route path='product' element={<Product />} />
+    <Route path='pricing' element={<Pricing />} />
   </Route>
 ))
 

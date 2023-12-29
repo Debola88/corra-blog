@@ -10,6 +10,10 @@ module.exports = {
       },
       fontFamily: {
         'Nav-color' : ['Rubik Lines']
+      },
+      listStyleImage: {
+        'icon': 'url("/src/assets/Icon.png")',
+        'icons': 'url("/src/assets/Icon (1).png")',
       }
     },
   },

@@ -23,7 +23,7 @@ const NavBar = () => {
         <div><nav><NavLink to="/Product" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRODUCT</span></NavLink></nav></div>
         <div><nav><NavLink to="/Pricing" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRICING</span></NavLink></nav></div>
         <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> ABOUT US</span></NavLink></nav></div>
-        <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> CONTACT</span></NavLink></nav></div>
+        <div><nav><NavLink to="/Contact" className='flex gap-2' onClick={handleClick}><span className='text-sm'> CONTACT</span></NavLink></nav></div>
         <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> BLOG</span></NavLink></nav></div>
       </div>
       {/* <ul className="text-sm font-semibold text-center h-screen px-[1.5rem]">
@@ -57,7 +57,7 @@ const NavBar = () => {
               <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/Product">PRODUCT</NavLink></nav></li>
               <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/Pricing">PRICING</NavLink></nav></li>
               <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="">ABOUT</NavLink></nav></li>
-              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="">CONTACT</NavLink></nav></li>
+              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/Contact">CONTACT</NavLink></nav></li>
               <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="">BLOG</NavLink></nav></li>
             </ul>
           </div>

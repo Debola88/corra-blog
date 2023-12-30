@@ -12,7 +12,7 @@ function Pricing() {
                     <p className='py-10'>Lorem ipsum dolor sit amet, consectetur adipiscing<br className='max-md:hidden' /> elit. Vestibulum vitae nunc vitae neque</p>
                 </div>
             </div >
-            <div className=''><PricingCard /></div>
+            <div className='relative -top-72 -mb-56'><PricingCard /></div>
             <Faq />
             <CustomerTestimonials />
         </div>

@@ -53,12 +53,12 @@ const NavBar = () => {
         <div className='lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden'>
           <div className=''>
             <ul className='flex gap-8 mr-0 text-sm text-black'>
-              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="/">HOME</NavLink></nav></li>
-              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="/Product">PRODUCT</NavLink></nav></li>
-              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="/Pricing">PRICING</NavLink></nav></li>
-              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">ABOUT</NavLink></nav></li>
-              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">CONTACT</NavLink></nav></li>
-              <li className='hover:text-[#024E82] transition cursor-pointer font-semibold'><nav><NavLink to="">BLOG</NavLink></nav></li>
+              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/">HOME</NavLink></nav></li>
+              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/Product">PRODUCT</NavLink></nav></li>
+              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/Pricing">PRICING</NavLink></nav></li>
+              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="">ABOUT</NavLink></nav></li>
+              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="">CONTACT</NavLink></nav></li>
+              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="">BLOG</NavLink></nav></li>
             </ul>
           </div>
         </div>

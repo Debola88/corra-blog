@@ -6,6 +6,7 @@ import Product from './components/Product';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import About from './components/About';
+import Blog from './components/Blog';
 
 const routes = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout />}>
@@ -14,6 +15,7 @@ const routes = createBrowserRouter(createRoutesFromElements(
     <Route path='pricing' element={<Pricing />} />
     <Route path='contact' element={<Contact />} />
     <Route path='about' element={<About />} />
+    <Route path='blog' element={<Blog />} />
   </Route>
 ))
 

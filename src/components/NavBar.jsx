@@ -24,7 +24,7 @@ const NavBar = () => {
         <div><nav><NavLink to="/Pricing" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRICING</span></NavLink></nav></div>
         <div><nav><NavLink to="/About" className='flex gap-2' onClick={handleClick}><span className='text-sm'> ABOUT US</span></NavLink></nav></div>
         <div><nav><NavLink to="/Contact" className='flex gap-2' onClick={handleClick}><span className='text-sm'> CONTACT</span></NavLink></nav></div>
-        <div><nav><NavLink to="" className='flex gap-2' onClick={handleClick}><span className='text-sm'> BLOG</span></NavLink></nav></div>
+        <div><nav><NavLink to="/Blog" className='flex gap-2' onClick={handleClick}><span className='text-sm'> BLOG</span></NavLink></nav></div>
       </div>
       {/* <ul className="text-sm font-semibold text-center h-screen px-[1.5rem]">
         <li className='my-3 py-3 hover:bg-slate-200 hover:rounded item-center text-lg'><nav><NavLink to="/" className='flex gap-2' onClick={handleClick}><span className='text-sm'>HOME</span></NavLink></nav></li>
@@ -58,7 +58,7 @@ const NavBar = () => {
               <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/Pricing">PRICING</NavLink></nav></li>
               <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/About">ABOUT</NavLink></nav></li>
               <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/Contact">CONTACT</NavLink></nav></li>
-              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="">BLOG</NavLink></nav></li>
+              <li className='hover:text-[#232ED1] transition cursor-pointer font-semibold'><nav><NavLink to="/Blog">BLOG</NavLink></nav></li>
             </ul>
           </div>
         </div>

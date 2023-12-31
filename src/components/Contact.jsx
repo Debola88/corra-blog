@@ -18,14 +18,6 @@ function Contact() {
         setMessage(event.target.value);
     }
 
-
-    const handleClick = () => {
-        // clear input value
-        setFirstname('');
-        setEmail('');
-        setMessage('');
-    };
-
     return (
         <div className='grid grid-cols-2 gap-y-10 max-lg:grid-cols-1 min-h-screen md:px-32 px-5 mt-32 pb-20 justify-center mx-auto h-auto'>
             <div className='text-left'>

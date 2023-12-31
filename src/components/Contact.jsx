@@ -28,7 +28,7 @@ function Contact() {
                     </div>
                 </div>
                 <h1 className='text-black font-bold text-5xl py-4'>Get in touch<br className='max-md:hidden'/> with us </h1>
-                <p>398 11th St, San Francisco</p>
+                <p>49 11th St, San Francisco</p>
             </div>
             <div className="">
                 <h2 className='font-semibold text-lg text-left text-black my-2'>We will get back to you as soon as possible.</h2>

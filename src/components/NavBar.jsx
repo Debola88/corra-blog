@@ -16,6 +16,17 @@ const NavBar = () => {
     navigate('');
   }
 
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-100px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+
   const content = <>
     <div className='md:hidden block absolute top-16 w-full z-50 bg-white left-0 ease-in-out  duration-500 shadow-lg'>
       <div className='flex max-md:flex-col gap-10 justify-center px-16 pb-16 items-left font-semibold text-gray-500 text-left h-screen text-lg'>
@@ -39,7 +50,7 @@ const NavBar = () => {
 
 
   return (
-    <nav className="fixed top-0 bg-[#ffffff14] left-0 w-full md:shadow-lg z-50 backdrop-blur-lg">
+    <nav id="navbar" className="fixed transition-all duration-300 navbar top-0 bg-[#ffffff14] left-0 w-full md:shadow-lg z-50 backdrop-blur-lg">
       <div className="h-[10hv] flex justify-between lg:py-5 md:px-16 px-5 py-4 ">
         <div className="flex items-center flex-1">
           <span className='text-3xl max-md:text-2xl font-bold text-blue-800 font-Nav-color uppercase cursor-pointer' onClick={handleNavigate}>CorraBlog</span>

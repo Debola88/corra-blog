@@ -9,6 +9,7 @@ import image6 from '../assets/Image (14).jpg'
 import image7 from '../assets/Image (15).jpg'
 import image8 from '../assets/Image (16).jpg'
 import image9 from '../assets/Image (17).jpg'
+import { NavLink } from 'react-router-dom'
 
 function Posts() {
     return (
@@ -20,21 +21,21 @@ function Posts() {
                     <p className='text-black py-4 font-bold text-lg'>Top 8 Traits of high-growth websites.</p>
                     <p className=' text-sm py-2'>Phasellus scelerisque eros felis, ut lobortis ipsum mattis ullamcorper.
                         Morbi magna orci, ornare vel auctor non, malesuada sed dolor. </p>
-                    <span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span>
+                    <NavLink to="/Blog/blogcontent"><span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span></NavLink>
                 </div>
                 <div className='text-left'>
                     <img src={image2} alt='' className='w-full  h-auto object-contain rounded' />
                     <p className='text-black py-4 font-bold text-lg'>Top 8 Traits of high-growth websites.</p>
                     <p className=' text-sm py-2'>Phasellus scelerisque eros felis, ut lobortis ipsum mattis ullamcorper.
                         Morbi magna orci, ornare vel auctor non, malesuada sed dolor. </p>
-                    <span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span>
+                    <NavLink to="/Blog/blogcontent"><span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span></NavLink>
                 </div>
                 <div className='text-left'>
                     <img src={image3} alt='' className='w-full  h-auto object-contain rounded' />
                     <p className='text-black py-4 font-bold text-lg'>Top 8 Traits of high-growth websites.</p>
                     <p className=' text-sm py-2'>Phasellus scelerisque eros felis, ut lobortis ipsum mattis ullamcorper.
                         Morbi magna orci, ornare vel auctor non, malesuada sed dolor. </p>
-                    <span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span>
+                    <NavLink to="/Blog/blogcontent"><span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span></NavLink>
                 </div>
             </div>
             <h1 className='text-3xl text-black  font-bold text-left py-16'>All Posts</h1>
@@ -44,42 +45,42 @@ function Posts() {
                     <p className='text-black py-4 font-bold text-lg'>Top 8 Traits of high-growth websites.</p>
                     <p className=' text-sm py-2'>Phasellus scelerisque eros felis, ut lobortis ipsum mattis ullamcorper.
                         Morbi magna orci, ornare vel auctor non, malesuada sed dolor. </p>
-                    <span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span>
+                    <NavLink to="/Blog/blogcontent"><span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span></NavLink>
                 </div>
                 <div className='text-left'>
                     <img src={image5} alt='' className='w-full  h-auto object-contain rounded' />
                     <p className='text-black py-4 font-bold text-lg'>Top 8 Traits of high-growth websites.</p>
                     <p className='text-sm py-2'>Phasellus scelerisque eros felis, ut lobortis ipsum mattis ullamcorper.
                         Morbi magna orci, ornare vel auctor non, malesuada sed dolor. </p>
-                    <span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span>
+                    <NavLink to="/Blog/blogcontent"><span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span></NavLink>
                 </div>
                 <div className='text-left'>
                     <img src={image6} alt='' className='w-full  h-auto object-contain rounded' />
                     <p className='text-black py-4 font-bold text-lg'>Top 8 Traits of high-growth websites.</p>
                     <p className='text-sm py-2'>Phasellus scelerisque eros felis, ut lobortis ipsum mattis ullamcorper.
                         Morbi magna orci, ornare vel auctor non, malesuada sed dolor. </p>
-                    <span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span>
+                    <NavLink to="/Blog/blogcontent"><span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span></NavLink>
                 </div>
                 <div className='text-left'>
                     <img src={image7} alt='' className='w-full  h-auto object-contain rounded' />
                     <p className='text-black py-4 font-bold text-lg'>Top 8 Traits of high-growth websites.</p>
                     <p className=' text-sm py-2'>Phasellus scelerisque eros felis, ut lobortis ipsum mattis ullamcorper.
                         Morbi magna orci, ornare vel auctor non, malesuada sed dolor. </p>
-                    <span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span>
+                    <NavLink to="/Blog/blogcontent"><span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span></NavLink>
                 </div>
                 <div className='text-left'>
                     <img src={image8} alt='' className='w-full  h-auto object-contain rounded' />
                     <p className='text-black py-4 font-bold text-lg'>Top 8 Traits of high-growth websites.</p>
                     <p className='text-sm py-2'>Phasellus scelerisque eros felis, ut lobortis ipsum mattis ullamcorper.
                         Morbi magna orci, ornare vel auctor non, malesuada sed dolor. </p>
-                    <span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span>
+                    <NavLink to="/Blog/blogcontent"><span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span></NavLink>
                 </div>
                 <div className='text-left'>
                     <img src={image9} alt='' className='w-full  h-auto object-contain rounded' />
                     <p className='text-black py-4 font-bold text-lg'>Top 8 Traits of high-growth websites.</p>
                     <p className='text-sm py-2'>Phasellus scelerisque eros felis, ut lobortis ipsum mattis ullamcorper.
                         Morbi magna orci, ornare vel auctor non, malesuada sed dolor. </p>
-                    <span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span>
+                    <NavLink to="/Blog/blogcontent"><span className='flex gap-4 items-center py-4 font-bold cursor-pointer'>Learn More <BsArrowRight /></span></NavLink>
                 </div>
             </div>
         </div>

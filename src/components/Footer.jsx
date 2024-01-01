@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { NavLink } from 'react-router-dom';
 // import { IoIosArrowForward } from "react-icons/io";
 // import { SnackbarProvider, enqueueSnackbar } from 'notistack'
 // import { useState } from 'react';
@@ -48,17 +49,17 @@ function Footer() {
             <div className='mb-5 text-left'>
               <h3 className='uppercase font-bold pb-4 text-black'>Company</h3>
               <ul className=''>
-                <li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>Product</li>
-                <li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>Pricing</li>
-                <li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>About Us</li>
+                <NavLink to='/Product'><li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>Product</li></NavLink>
+                <NavLink to='/Pricing'><li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>Pricing</li></NavLink>
+                <NavLink to='/About'><li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>About Us</li></NavLink>
               </ul>
             </div>
             <div className='mb-5 text-left'>
               <h3 className='uppercase font-bold pb-4 text-black'>Legal</h3>
               <ul>
-                <li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>Privacy Policy</li>
-                <li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>404</li>
-                <li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>Protected Page</li>
+                <NavLink to='/privacy'><li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>Privacy Policy</li></NavLink>
+                <NavLink to='/error404'><li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>404</li></NavLink>
+                <NavLink to=''><li className='pb-2 hover:text-[#024E82] transition cursor-pointer'>Protected Page</li></NavLink>
               </ul>
             </div>
             <div className='mb-5 text-left'>

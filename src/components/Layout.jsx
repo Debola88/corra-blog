@@ -7,7 +7,7 @@ import ScrollReset from './ScrollReset'
 
 function Layout() {
   return (
-    <div className="text-center text-gray-800 min-h-[100dvh]">
+    <div className="text-center text-gray-800 min-h-[100vh] font-body-font">
       <NavBar />
       <main className='mt-16'>
         <Outlet />

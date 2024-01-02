@@ -22,7 +22,7 @@ const NavBar = () => {
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("navbar").style.top = "0";
     } else {
-      document.getElementById("navbar").style.top = "-100px";
+      document.getElementById("navbar").style.top = "-80px";
     }
     prevScrollpos = currentScrollPos;
   }
@@ -50,10 +50,10 @@ const NavBar = () => {
 
 
   return (
-    <nav id="navbar" className="fixed transition-all duration-300 navbar top-0 bg-[#ffffff14] left-0 w-full md:shadow-lg z-50 backdrop-blur-lg">
+    <nav id="navbar" className="fixed transition-all duration-300 navbar top-0 bg-[#ffffff14] left-0 w-full md:shadow z-50 backdrop-blur-xl">
       <div className="h-[10hv] flex justify-between lg:py-5 md:px-16 px-5 py-4 ">
         <div className="flex items-center flex-1">
-          <span className='text-3xl max-md:text-2xl font-bold text-blue-800 font-Nav-color uppercase cursor-pointer' onClick={handleNavigate}>CorraBlog</span>
+          <span className='text-3xl max-md:text-2xl font-extrabold text-blue-800 font-serif cursor-pointer' onClick={handleNavigate}>Corra<span className='font-Satisfy'>Blog</span></span>
         </div>
         <div className='text-lg flex gap-5 ml-auto justify-end items-center md:hidden'>
           <button className='block md:hidden transition-transform duration-500 text-2xl' onClick={handleClick}>

@@ -5,8 +5,10 @@ import FeatureFive from '../assets/Feature 5 Asset.png'
 import { BsArrowRight } from 'react-icons/bs'
 
 function Features() {
+
+
   return (
-    <div className='py-10 md:px-28 px-5 mx-auto'>
+    <div className='py-10 md:px-28 px-5 mx-auto' >
       <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-x-20 gap-y-10 items-center max-md:flex-col'>
         <div className=' bg-gradient-to-b from-[#B6BAFF33] to-[#232ED133] lg:p-[80px] md:p-[50px] p-[50px] rounded-bl-3xl rounded-tl-3xl rounded-tr-3xl'>
           <img src={FeatureThree} alt='' className='w-auto max-h-80 mx-auto' />

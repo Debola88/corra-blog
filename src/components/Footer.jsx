@@ -29,7 +29,7 @@ function Footer() {
             </div>
             <div className='relative w-full my-auto text-left rounded-bl-lg rounded-tr-lg  bg-[#232ED1] block -top-28'>
               <div className='flex max-md:flex-col gap-y-10 justify-between items-center p-14'>
-                <p className='text-2xl font-bold text-white'>Get started<br /> with Finsweet today</p>
+                <p className='text-2xl font-bold text-white'>Get started<br className='max-md:hidden'/> with <span className='text-3xl max-md:text-2xl font-extrabold text-[#F24C27] font-serif cursor-pointer'>Corra<span className='font-Satisfy'>Blog</span></span> today</p>
                 <NavLink to='/pricing'><button className='text-sm rounded py-3 px-8 text-white bg-[#F24C27]'>View Pricing</button></NavLink>
               </div>
             </div>

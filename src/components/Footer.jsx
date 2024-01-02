@@ -30,7 +30,7 @@ function Footer() {
             <div className='relative w-full my-auto text-left rounded-bl-lg rounded-tr-lg  bg-[#232ED1] block -top-28'>
               <div className='flex max-md:flex-col gap-y-10 justify-between items-center p-14'>
                 <p className='text-2xl font-bold text-white'>Get started<br /> with Finsweet today</p>
-                <button className='text-sm rounded py-3 px-8 text-white bg-[#F24C27]'>View Pricing</button>
+                <NavLink to='/pricing'><button className='text-sm rounded py-3 px-8 text-white bg-[#F24C27]'>View Pricing</button></NavLink>
               </div>
             </div>
             <div className='relative my-auto p-2 text-left bg-[#232ED1] block -top-8  max-md:top-[1.5rem] rounded-br'>

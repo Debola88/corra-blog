@@ -31,7 +31,7 @@ function Contact() {
 
     return (
         <div className='grid grid-cols-2 gap-y-10 max-lg:grid-cols-1 min-h-screen md:px-32 px-5 mt-32 pb-20 justify-center mx-auto h-auto'>
-            <div className='text-left' data-aos="zoom-out-right" data-aos-duration="1500">
+            <div className='text-left' data-aos="zoom-in-down" data-aos-duration="1500">
                 <div className='flex gap-2 items-end'>
                     <div className=' h-3 w-3 p-2 left-0 max-w-max bg-[#F24C27] block rounded-tl-lg'>
                     </div>
@@ -41,7 +41,7 @@ function Contact() {
                 <h1 className='text-black font-bold text-5xl py-4 font-Bodoni'>Get in touch<br className='max-md:hidden' /> with us </h1>
                 <p>49 11th St, San Francisco</p>
             </div>
-            <div data-aos="zoom-out-down" data-aos-duration="1500">
+            <div data-aos="zoom-in-up" data-aos-duration="1500">
                 <h2 className='font-semibold text-lg text-left text-black my-2'>We will get back to you as soon as possible.</h2>
                 <form className='w-full' id='message'>
                     <div className='flex flex-col'>

@@ -19,7 +19,7 @@ function BlogHero() {
                     <h1 className='text-black text-4xl max-lg:text-3xl font-bold font-Bodoni'>Brand Positioning that you can`t ignore in 2021</h1>
                     <p className='py-10 font-semibold md:w-2/3 md:pl-1 pb-10'>Lorem ipsum dolor sit amet, consectetur dipiscing elit. Vestibulum vitae nunc vitae neque .</p>
                 </div>
-                <div className='items-center mx-auto' data-aos="fade-down-left" data-aos-duration="1200">
+                <div className='items-center mx-auto' data-aos="zoom-in-down" data-aos-duration="1500">
                     <div className='flex gap-4'>
                         <div className='mb-auto w-6 p-3 text-left bg-[#232ED1] block rounded-br-lg'>
                         </div>

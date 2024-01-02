@@ -18,7 +18,7 @@ function HomeHero() {
                     <h1 className='text-black text-4xl max-lg:text-3xl font-bold font-Bodoni'>Run Your Entire Customer Support Remotely</h1>
                     <p className='py-10 text-sm md:w-2/3 md:pl-1 pb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc vitae neque</p>
                 </div>
-                <div className='w-full h-auto' data-aos="fade-down-left" data-aos-duration="1500">
+                <div className='w-full h-auto' data-aos="zoom-in-down" data-aos-duration="1500">
                     <img src={hero} alt='' className='max-w-full w-full md:py-0 py-4 md:mx-0 mx-auto object-contain' />
                 </div>
             </div>

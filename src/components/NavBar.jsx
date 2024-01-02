@@ -28,7 +28,7 @@ const NavBar = () => {
   }
 
   const content = <>
-    <div className='md:hidden block absolute top-16 w-full z-50 bg-white left-0 ease-in-out  duration-500 shadow-lg'>
+    <div className='md:hidden block absolute top-16 w-full z-50 bg-white left-0 ease-in-out duration-500 shadow-lg'>
       <div className='flex max-md:flex-col gap-10 justify-center px-16 pb-16 items-left font-semibold text-gray-500 text-left h-screen text-lg'>
         <div><nav><NavLink to="/" className='flex gap-2' onClick={handleClick}><span className='text-sm'>HOME</span></NavLink></nav></div>
         <div><nav><NavLink to="/Product" className='flex gap-2' onClick={handleClick}><span className='text-sm'> PRODUCT</span></NavLink></nav></div>

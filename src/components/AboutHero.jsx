@@ -8,7 +8,7 @@ function AboutHero() {
                     <h1 className='text-black text-4xl max-lg:text-3xl font-bold font-Bodoni'>About US</h1>
                     <p className='py-10 font-semibold md:w-2/3 md:pl-1 pb-10'>Lorem ipsum dolor sit amet, consectetur dipiscing elit. Vestibulum vitae nunc vitae neque .</p>
                 </div>
-                <div className='mx-auto relative top-28'>
+                <div className='mx-auto relative top-28' data-aos="zoom-in-down" data-aos-duration="1500">
                     <div className='flex gap-4 items-end'>
                         <div className=' w-6 p-6 h-4 max-w-max bg-[#F24C27] block rounded-tl-2xl'>
                         </div>

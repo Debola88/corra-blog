@@ -18,7 +18,7 @@ function ProductHero() {
                     <h1 className='text-black text-4xl max-lg:text-3xl font-bold font-Bodoni'>Help your team to focus on priority tasks</h1>
                     <p className='py-10 text-sm md:w-2/3 md:pl-1 pb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc vitae neque</p>
                 </div>
-                <div className='flex items-center gap-4 mx-auto' data-aos="fade-down-left" data-aos-duration="1200">
+                <div className='flex items-center gap-4 mx-auto' data-aos="zoom-in-down" data-aos-duration="1200">
                     <div className='pt-56 flex-col'>
                         <div className='ml-auto my-auto w-6 p-3 left-0 max-w-max bg-[#232ED1] block rounded-br-lg'>
                         </div>

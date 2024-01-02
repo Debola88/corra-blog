@@ -20,7 +20,7 @@ function Pricing() {
                     <p className='py-10'>Lorem ipsum dolor sit amet, consectetur adipiscing<br className='max-md:hidden' /> elit. Vestibulum vitae nunc vitae neque</p>
                 </div>
             </div >
-            <div className='relative -top-52 -mb-40' data-aos="zoom-out-down" data-aos-duration="1500"><PricingCard /></div>
+            <div className='relative -top-52 -mb-40' data-aos="zoom-in-down" data-aos-duration="1500"><PricingCard /></div>
             <Faq />
             <CustomerTestimonials />
         </div>

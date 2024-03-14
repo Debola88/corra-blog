@@ -48,7 +48,7 @@ function Contact() {
                         <div className='flex max-md:flex-col gap-10 py-4'>
                             <input type="text" className='border w-full rounded h-14 p-2' placeholder='First Name' id='name' onChange={handleFirstnameChange}
                                 value={firstname} required />
-                            <input type="text" className='border  w-full rounded h-14 p-2' placeholder='Middle Name' id='name' onChange={handleMiddlenameChange}
+                            <input type="text" className='border w-full rounded h-14 p-2' placeholder='Middle Name' id='name' onChange={handleMiddlenameChange}
                                 value={middlename} required />
                         </div>
                         <div className='py-4'>

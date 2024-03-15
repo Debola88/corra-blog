@@ -75,7 +75,7 @@ function Footer() {
             <p>49 11th St, San Francisco</p>
             <form className='left-0 flex items-center'>
               <div>
-                <input type="email" placeholder='Enter email' className='relative block text-left w-60 h-[3.25rem] max-sm:w-44  max-sm:h-[2.75rem] p-2 text-black font-semibold outline-none rounded-l left-1' required />
+                <input type="email" placeholder='Enter email' className='relative text-left w-60 h-[3.25rem] max-sm:w-44  max-sm:h-[2.75rem] p-2 text-black text-base outline-none rounded-l left-1' required />
               </div>
               <div className='bg-white max-w-max p-1 rounded-r'>
                 <button type='submit' className='text-sm max-sm:px-5 max-sm:py-2 rounded py-3 px-8 text-white bg-[#F24C27]'>View Pricing</button>

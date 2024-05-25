@@ -51,7 +51,7 @@ function CustomerTestimonials() {
                             <img src={img2} alt='' className='object-contain w-auto rounded-full max-h-10' />
                         </div>
                         <div className='text-left'>
-                            <h2 className='font-semibold text-xl'>Chi Badejo</h2>
+                            <h2 className='font-semibold text-xl'>Heri Badejo</h2>
                             <span className='flex mt-1 gap-1 text-sm text-[#F24C27]'>
                                 <BsStarFill />
                                 <BsStarFill />
